@@ -8,12 +8,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Vertix<Integer> v0 = new Vertix<>(0);
-        Vertix<Integer> v1 = new Vertix<>(1);
-        Vertix<Integer> v2 = new Vertix<>(2);
-        Vertix<Integer> v3 = new Vertix<>(3);
-        Vertix<Integer> v4 = new Vertix<>(4);
-        Vertix<Integer> v5 = new Vertix<>(5);
+        Vertix<Integer> v0 = new Vertix<>(0), v1 = new Vertix<>(1);
+        Vertix<Integer> v2 = new Vertix<>(2), v3 = new Vertix<>(3);
+        Vertix<Integer> v4 = new Vertix<>(4), v5 = new Vertix<>(5);
         Vertix<Integer> v6 = new Vertix<>(6);
 
         v0.setNeighbors(Arrays.asList(v1, v2));
