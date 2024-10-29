@@ -22,7 +22,7 @@ public class BreadthFirstSearch<D> {
             Vertix<D> current = vertices.poll();
             if (!current.isVisited()){
                 current.setVisited(true);
-                TextUtils.LOGGER.info("checked vertix: " + current.getData());
+                TextUtils.LOGGER.info("vertix: " + current.getData() + ", status: " + current.isVisited());
                 vertices.addAll(current.getNeighbors());
             }
         }

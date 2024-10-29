@@ -31,4 +31,5 @@ public class Vertix<D> {
     public List<Vertix<D>> getNeighbors() {
         return neighbors;
     }
+
 }
